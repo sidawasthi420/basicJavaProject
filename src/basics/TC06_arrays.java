@@ -51,7 +51,7 @@ public class TC06_arrays {
           // {
           //   System.out.println(ar[i]);
           // }
-    //    int[] arr = new int[5];     //instantiate & declaration //size of array = 5
+           int[] arr = new int[5];     //instantiate & declaration //size of array = 5
        
     //    arr[0] = 34;
     //    System.out.println(arr[0]);
