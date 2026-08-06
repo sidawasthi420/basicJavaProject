@@ -1,6 +1,6 @@
 package ArrayPrograms;
 
-public class P05_SortArrayInAscendingAndDescendingOrder {
+public class P06_SortArrayInAscendingAndDescendingOrder {
 
     public static void main(String[] args) {
 
