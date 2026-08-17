@@ -3,7 +3,7 @@ package yashwin.Programs;
 //Importing package to use HashSet
 import java.util.HashSet;
 
-public class A16 {
+public class A16_ElementsAreUniqueUsingHashSet {
     public static void main(String[] args){
 
         //Creating HashSet object and restricting it to store only integer
