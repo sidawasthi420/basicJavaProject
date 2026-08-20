@@ -1,4 +1,4 @@
-package StringPrograms;
+package Tariq.Programs.StringPrograms;
 
 import java.util.Arrays;
 

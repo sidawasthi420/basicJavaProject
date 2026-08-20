@@ -1,4 +1,4 @@
-package StringPrograms;
+package Tariq.Programs.StringPrograms;
 
 public class P04_CountTotalCharactersInStringExcludingSpaces {
 

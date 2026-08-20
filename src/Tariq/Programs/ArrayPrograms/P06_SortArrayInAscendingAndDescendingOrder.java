@@ -1,4 +1,4 @@
-package ArrayPrograms;
+package Tariq.Programs.ArrayPrograms;
 
 public class P06_SortArrayInAscendingAndDescendingOrder {
 

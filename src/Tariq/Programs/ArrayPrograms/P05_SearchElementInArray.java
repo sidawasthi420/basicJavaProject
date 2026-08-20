@@ -1,4 +1,4 @@
-package ArrayPrograms;
+package Tariq.Programs.ArrayPrograms;
 
 public class P05_SearchElementInArray {
 

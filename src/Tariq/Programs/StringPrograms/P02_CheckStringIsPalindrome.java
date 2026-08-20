@@ -1,4 +1,4 @@
-package StringPrograms;
+package Tariq.Programs.StringPrograms;
 
 public class P02_CheckStringIsPalindrome {
     public static void main(String[] args) {
