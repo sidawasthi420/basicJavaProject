@@ -2,6 +2,9 @@ package Tariq.Programs.FiftyPrograms;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collector;
+import java.util.stream.Collectors;
 
 //21. Convert an Array to an ArrayList: Employ the native Arrays.asList(array) method.
 
@@ -11,16 +14,17 @@ public class P21_Array_To_ArrayList {
 
         int[] arr = { 2, 5, 8, 3, 7, 6 };
 
-        Integer[] arr1 = new Integer[arr.length];
+       ArrayList<Integer> list1 = Arrays.stream(arr).boxed().collect(Collectors.toCollection(ArrayList::new));
+        
+  //      ArrayList<Integer> arrList = new ArrayList<>(Arrays.stream(arr).boxed());
+//         import guava jar files
+//        ArrayList<Integer> arrList = Lists.newArrayList(Ints.asList(arr));
 
-        for(int i=0; i<arr.length; i++){
-
-            arr1[i] = arr[i] ;
+/*    for(int i : arr){
+            arrList.add(i);
         }
-
-        ArrayList<Object> arrayList = new ArrayList<>(Arrays.asList(arr1));
-
-        System.out.println(arrayList);
+*/
+       System.out.println(list1);
 
     }
 }

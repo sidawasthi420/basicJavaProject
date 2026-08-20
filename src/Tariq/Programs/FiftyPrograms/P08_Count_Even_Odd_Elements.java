@@ -1,6 +1,7 @@
 package Tariq.Programs.FiftyPrograms;
 
 //8. Count even and odd elements: Traverse the array using a conditional modulus check (arr[i] % 2 == 0).
+
 public class P08_Count_Even_Odd_Elements {
 
     public static void main(String[] args) {
